@@ -24,7 +24,7 @@ _url = sys.argv[0]
 nomPlugin = _url.replace("plugin://","")
 AdressePlugin = xbmc.translatePath('special://home/')+"/addons/"+nomPlugin+'/'
 _handle = int(sys.argv[1])
-_ArtMenu = {'thumb': AdressePlugin+'icon.png',
+_ArtMenu = {'thumb': AdressePlugin+'play.png',
             'fanar': AdressePlugin+'fanart.jpg'}
 _MenuList={"Trier la liste de Recherche vStream":("TlRv","RechercheVstream"),
            "Trier les Marques-Pages vStream":("TMPv","MPVstream"),
