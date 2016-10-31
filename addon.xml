@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Essai_Max"
-       name="Max"
+       name="xAmAx VV"
        version="1.0.0" 
-       provider-name="Max">
+       provider-name="xAmAx">
   <requires>
-   <import addon="xbmc.python" version="2.1"/>
+   <import addon="xbmc.python" version="2.24.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="fr">Max Extension</summary>
-    <description lang="fr">Max Extension</description>
+    <summary lang="fr">xAmAx VV</summary>
+    <description lang="fr">xAmAx VV est un module de modification de l'ordre des listes de vStream.</description>
+    <summary lang="en">xAmAx VV</summary>
+    <description lang="en">Xamax VV is a modified module order lists vStream.</description>
     <platform>all</platform>
- <language>fr</language>
- <email>maxcan13@hotmail.com</email>
   </extension>
 </addon>
